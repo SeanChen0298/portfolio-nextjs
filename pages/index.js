@@ -100,6 +100,16 @@ const Page = () => {
           Worked at Nettium Sdn. Bhd. as a Software Engineer.
         </BioSection>
       </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Interests
+        </Heading>
+        <Paragraph>
+          Technology &amp; Science, Music, Art, Playing Tuba, Anime
+        </Paragraph>
+      </Section>
+
     </Container>
   )
 }
